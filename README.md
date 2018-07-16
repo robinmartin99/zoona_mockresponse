@@ -1,3 +1,4 @@
 # zoona_mockresponse
 The shared flow reading oas.js
-Now to get push commit working
+
+Common code to produce a mocked response from the swagger file
