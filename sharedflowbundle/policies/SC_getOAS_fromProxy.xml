@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ServiceCallout async="false" continueOnError="false" enabled="true" name="SC_getOAS_fromProxy">
+    <DisplayName>SC_getOAS_fromProxy</DisplayName>
+    <Properties/>
+    <Request clearPayload="true" variable="myRequest">
+        <Set>
+            <Headers>
+                <!-- Authorize as Robin -->
+                <!-- telkom internal TWFydGluUjVAdGVsa29tLmNvLnphOiFSUG9ydGFudCB0MDA= -->
+                <Header name="Authorization">Basic cm9iaW5tQGNvcm5hc3RvbmUuY28uemE6IVJQb3J0YW50IHQwMA==</Header>
+            </Headers>
+        </Set>
+        <IgnoreUnresolvedVariables>false</IgnoreUnresolvedVariables>
+    </Request>
+    <Response>calloutResponse</Response>
+    <HTTPTargetConnection>
+        <Properties/>
+        <!-- URL>http://10.227.169.70:8080/v1/o/{organization.name}/apis/{apiproxy.name}/revisions/{apiproxy.revision}/resourcefiles/jsc/oas.js</URL -->
+        <URL>https://api.enterprise.apigee.com/v1/o/{organization.name}/apis/{apiproxy.name}/revisions/{apiproxy.revision}/resourcefiles/jsc/oas.js</URL>
+    </HTTPTargetConnection>
+</ServiceCallout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SharedFlow name="default">
+    <Step>
+        <Name>SC_getOAS_fromProxy</Name>
+    </Step>
+    <Step>
+        <Name>buildMockResponse_Model</Name>
+    </Step>
+    <Step>
+        <Name>RF_MockResponse</Name>
+    </Step>
+</SharedFlow>

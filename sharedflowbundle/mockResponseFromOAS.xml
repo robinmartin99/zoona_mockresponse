@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<SharedFlowBundle revision="2" name="mockResponseFromOAS">
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1530310709896</CreatedAt>
+    <CreatedBy>robinm@cornastone.co.za</CreatedBy>
+    <Description>Exit flow responding with example model body</Description>
+    <DisplayName>mockResponseFromOAS</DisplayName>
+    <LastModifiedAt>1531483870437</LastModifiedAt>
+    <LastModifiedBy>robinm@cornastone.co.za</LastModifiedBy>
+    <ManifestVersion>SHA-512:cafdaea6923c1657f9262c1607acf02dd00ba1cbfa7a0ea14a3f07cbd163ecbd19403a790fef7e4c9c53b83c32993ac73b6ebcbcb3a7bd99d520d148c5caf0b5</ManifestVersion>
+    <Policies>
+        <Policy>RF_MockResponse</Policy>
+        <Policy>SC_getOAS_fromProxy</Policy>
+        <Policy>buildMockResponse_Model</Policy>
+    </Policies>
+    <Resources>
+        <Resource>jsc://@readme.js</Resource>
+        <Resource>jsc://buildMockResponse_Model.js</Resource>
+    </Resources>
+    <Spec></Spec>
+    <subType>SharedFlow</subType>
+    <SharedFlows>
+        <SharedFlow>default</SharedFlow>
+    </SharedFlows>
+</SharedFlowBundle>
