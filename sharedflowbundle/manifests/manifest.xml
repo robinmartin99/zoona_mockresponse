@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="RF_MockResponse" version="SHA-512:163292c9b817ff788634365cb320857b73e34eedfbac2e0570f6f20c5170fc22a3a3adcc9b7de5e42bcf96f269730d282cbf629baa3d0b3580a562bbed18e330"/>
+        <VersionInfo resourceName="SC_getOAS_fromProxy" version="SHA-512:b9a91c8e3df5209190886d7a7a8bcf40f82aa1a0ef8120f2a1c5f42f3569327e0e0e6c5187301a0a23a754a94294560fd2aabb45512b6f5d8ac264d68f490efa"/>
+        <VersionInfo resourceName="buildMockResponse_Model" version="SHA-512:299dc29dc0ceeec2fd005d6da6d372010b86480c8f0b0beceb3ea545e4d996f3f025c85fb77ed0d121918d7b6ad188e040f2cc2132417c234f4018936efa8e23"/>
+    </Policies>
+    <ProxyEndpoints/>
+    <Resources>
+        <VersionInfo resourceName="jsc://@readme.js" version="SHA-512:a8a669b5c5bde5b4590e1f06e603e8f87c1fa15cd5e4e72af673940cfbe6d19e3b7b70ff160a1d3f3bc7c7c27c15a17901dfabe48adc8efae1446d54f3c84de6"/>
+        <VersionInfo resourceName="jsc://buildMockResponse_Model.js" version="SHA-512:a3360e031fa9b95527cea63fb13e406d4db5cf05731df35a784d413c7806f8258af0a531b63fb0036d01e7056f1374c69a598192b0fca57a6b474b10958fbd25"/>
+    </Resources>
+    <SharedFlows>
+        <VersionInfo resourceName="default" version="SHA-512:548cb738e014c053c47d02d8a37d7a9fc9890e2c5464002ad41995eb80c633a12e824c54f083c4871df2e4c5a9e8588770794e1a607d42b0edcc2ea2ffeb4a53"/>
+    </SharedFlows>
+    <TargetEndpoints/>
+</Manifest>
